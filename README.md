@@ -10,7 +10,7 @@
 
 ## 🏷️ Repository Tags & Topics
 
-`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#unit-economics` `#growth-loops` `#onboarding` `#b2b-saas` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#legal-compliance` `#cli-cheatsheet` `#theinpublic`
+`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#founder-rules` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#unit-economics` `#growth-loops` `#onboarding` `#b2b-saas` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#legal-compliance` `#cli-cheatsheet` `#theinpublic`
 
 ---
 
@@ -44,12 +44,13 @@ Learn from pioneer companies operating with total financial and operational tran
 
 ---
 
-## 📚 Master Knowledge Modules (25 Modules)
+## 📚 Master Knowledge Modules (26 Modules)
 
-This repository is structured into **25 core minimalist modules**, covering every single aspect of independent software creation:
+This repository is structured into **26 core minimalist modules**, covering every single aspect of independent software creation:
 
 | Module | Core Topic & Focus Area | Target Audience | Primary Outcome |
 | :--- | :--- | :--- | :--- |
+| 📜 [**`founder-rules`**](./founder-rules/README.md) | **28 Hard-Learned Rules for Founders** | Early Stage & Experienced Founders | Master the 28 hard-won rules on validation, pricing, hiring & life balance at age 35. |
 | 🚀 [**`build-in-public`**](./build-in-public/README.md) | **From Startup Journey to Community Engine** | All Builders & Founders | Establish authentic mindset, trust flywheel, distribution channels & safety guardrails. |
 | ⚡️ [**`mvp`**](./mvp/README.md) | **First-Principles MVP Validation Guide** | Engineers & Product Managers | Isolate core pain points, eliminate feature creep, and ship testable MVPs in days. |
 | 🗺️ [**`roadmap`**](./roadmap/README.md) | **The Complete 6-Phase #buildinpublic Roadmap** | Indie Hackers & Creators | End-to-end operational blueprint from preparation to post-launch monetization. |
@@ -84,7 +85,7 @@ Follow this interactive Mermaid roadmap to navigate the knowledge base based on 
 
 ```mermaid
 flowchart LR
-    S1[Stage 1: Discovery<br/>/zero-to-one & /coder-to-founder] --> S2[Stage 2: Lean MVP<br/>/mvp & /product-market-fit]
+    S1[Stage 1: Discovery & Mindset<br/>/founder-rules & /zero-to-one] --> S2[Stage 2: Lean MVP<br/>/mvp & /product-market-fit]
     S2 --> S3[Stage 3: Growth Loops & UX<br/>/customer-onboarding & /growth-loops]
     S3 --> S4[Stage 4: Content & Audience<br/>/content & /audience]
     S4 --> S5[Stage 5: Launch & SEO<br/>/launch & /marketing-and-seo]
