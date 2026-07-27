@@ -1,12 +1,22 @@
-# 🚀 Build in Public & Indie Hacker Master Knowledge Hub
+# 🚀 Build in Public (BiP) & Indie Hacker Master Hub
 
-> **A comprehensive, first-principles collection of strategic engineering guides, operational roadmaps, content frameworks, financial transparency models, open-source strategies, and Indie Hacker playbooks for software makers and bootstrapped founders.**
+[![Website](https://img.shields.io/badge/Website-theinpublic.com-0070f3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://theinpublic.com)
+[![Topics](https://img.shields.io/badge/Topics-BuildInPublic%20%7C%20IndieHacker%20%7C%20SaaS-orange?style=for-the-badge)](https://theinpublic.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](./LICENSE)
+
+> **A comprehensive, first-principles collection of strategic engineering guides, operational roadmaps, content frameworks, financial transparency models, open-source strategies, and Indie Hacker playbooks. Live portal: [theinpublic.com](https://theinpublic.com).**
+
+---
+
+## 🏷️ Repository Tags & Topics
+
+`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#theinpublic`
 
 ---
 
 ## 📌 Executive Overview
 
-**Building in Public (BiP)** and **Indie Hacking** are modern paradigms redefining software entrepreneurship. Rather than developing in isolation or chasing Venture Capital valuations, independent creators build transparently, validate early with real users, focus on immediate cash flow, and cultivate long-term personal freedom.
+**Building in Public (BiP)** and **Indie Hacking** are modern paradigms redefining software entrepreneurship. Rather than developing in isolation or chasing Venture Capital valuations, independent creators build transparently, validate early with real users, focus on immediate cash flow, and cultivate long-term personal freedom. Live community hub and resources: [theinpublic.com](https://theinpublic.com).
 
 ```text
 ┌───────────────────────────────────────────────────────────────────────────────────────────┐
@@ -147,6 +157,7 @@ Follow this lifecycle roadmap to navigate the knowledge base based on your proje
 - **[Canny](https://canny.io)** / **[FeatureOS](https://featureos.app)**: Public feature request voting and product roadmap boards.
 
 ### Maker Communities
+- **[theinpublic.com](https://theinpublic.com)**: Live portal & community hub for makers and builders.
 - **[Indie Hackers](https://indiehackers.com)**: Global bootstrapped founder community.
 - **[WIP.co](https://wip.co)**: Real-time maker shipping & accountability platform.
 - **[Product Hunt Discussions](https://producthunt.com/discussions)**: Pre-launch discussion forum for product makers.
@@ -156,3 +167,7 @@ Follow this lifecycle roadmap to navigate the knowledge base based on your proje
 ## 📜 License & Open Contributions
 
 This knowledge hub is open source under the [MIT License](./LICENSE). Contributions, improvements, and real-world case study additions are welcome via Pull Requests. Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+
+---
+
+*Maintained and powered by [theinpublic.com](https://theinpublic.com).*
