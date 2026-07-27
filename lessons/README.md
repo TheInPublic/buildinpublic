@@ -401,4 +401,4 @@ And trying again.
 > Share the unfinished journey honestly.
 > And do not postpone your life while waiting for the work to succeed.**
 
-*Written by Huỳnh Nhân Quốc, an independent Go developer building Kitwork from Tam Kỳ, Quảng Nam, Vietnam.*
+*Written by Huỳnh Nhân Quốc, an independent Go developer building Kitwork from Tam Kỳ, Đà Nẵng, Vietnam.*
