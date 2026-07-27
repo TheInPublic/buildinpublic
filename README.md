@@ -10,7 +10,7 @@
 
 ## 🏷️ Repository Tags & Topics
 
-`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#legal-compliance` `#cli-cheatsheet` `#theinpublic`
+`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#unit-economics` `#growth-loops` `#onboarding` `#b2b-saas` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#legal-compliance` `#cli-cheatsheet` `#theinpublic`
 
 ---
 
@@ -44,9 +44,9 @@ Learn from pioneer companies operating with total financial and operational tran
 
 ---
 
-## 📚 Master Knowledge Modules (21 Modules)
+## 📚 Master Knowledge Modules (25 Modules)
 
-This repository is structured into **21 core minimalist modules**, covering every single aspect of independent software creation:
+This repository is structured into **25 core minimalist modules**, covering every single aspect of independent software creation:
 
 | Module | Core Topic & Focus Area | Target Audience | Primary Outcome |
 | :--- | :--- | :--- | :--- |
@@ -57,10 +57,14 @@ This repository is structured into **21 core minimalist modules**, covering ever
 | 🛠️ [**`indie-hacker`**](./indie-hacker/README.md) | **The Indie Hacker Guide** | Solo Founders & Bootstrappers | Master self-funded bootstrapping, solo founder tech stacks, and ramen profitability. |
 | ⚖️ [**`bootstrapping`**](./bootstrapping/README.md) | **Bootstrapping vs Venture Capital** | Tech Entrepreneurs | Tradeoff analysis between equity retention/cash flow vs VC hypergrowth & microservice scaling. |
 | 💡 [**`micro-saas`**](./micro-saas/README.md) | **The Micro-SaaS Playbook** | 1-Person SaaS Developers | Find niche software ideas, structure subscription pricing ($9-$99/mo), and automate support. |
+| 🏢 [**`b2b-vs-b2c-saas`**](./b2b-vs-b2c-saas/README.md) | **B2B vs B2C SaaS Economics** | Solo SaaS Builders | Tradeoff analysis showing why B2B Micro-SaaS yields higher ARPU, lower churn & solo fit. |
 | 🔍 [**`zero-to-one`**](./zero-to-one/README.md) | **Ideation & Problem Discovery** | Early Stage Founders | Identify hair-on-fire problems, master The Mom Test interviews, and run smoke tests. |
 | 🎯 [**`product-market-fit`**](./product-market-fit/README.md) | **Product-Market Fit (PMF) Guide** | Product Builders | Measure PMF with Sean Ellis 40% rule, retention curve flattening, and avoid fake PMF. |
+| 📈 [**`unit-economics`**](./unit-economics/README.md) | **Unit Economics (CAC, LTV, Margin)** | Financial Builders | Calculate LTV/CAC ratios (target 3x+), CAC payback periods (<6-12 mos), and Rule of 40. |
 | 💳 [**`pricing-strategies`**](./pricing-strategies/README.md) | **SaaS & Product Pricing Strategies** | Indie Creators & Founders | Master value-based pricing, tiered plans, usage models, LTDs, and price optimization. |
 | 🪣 [**`retention-and-churn`**](./retention-and-churn/README.md) | **User Retention & Churn Reduction** | SaaS Builders | Seal leaky buckets, diagnose voluntary vs involuntary churn, and build dunning loops. |
+| ⚡️ [**`customer-onboarding`**](./customer-onboarding/README.md) | **Customer Onboarding & TTV** | Product Designers | Reduce Time-to-Value (TTV < 2 mins), engineer "Aha!" moments, and clear empty states. |
+| 🔄 [**`growth-loops`**](./growth-loops/README.md) | **Growth Loops & Viral Distribution** | Growth Engineers | Build compounding viral, content & PLG loops replacing linear marketing funnels. |
 | 🔍 [**`marketing-and-seo`**](./marketing-and-seo/README.md) | **Programmatic SEO & Organic Growth** | SaaS Marketers | Build pSEO engines, capture long-tail keywords, and set up founder marketing channels. |
 | 🤖 [**`ai-native-saas`**](./ai-native-saas/README.md) | **Building AI-Native Micro-SaaS** | AI Developers | Architect RAG context pipelines, optimize token costs, and secure against prompt injections. |
 | ⚡️ [**`cheatsheet`**](./cheatsheet/README.md) | **Indie Hacker CLI & Commands Reference** | Command-Line Developers | Stripe CLI webhooks, Vercel/Supabase deployments, Docker VPS commands & Git workflows. |
@@ -81,78 +85,11 @@ Follow this interactive Mermaid roadmap to navigate the knowledge base based on 
 ```mermaid
 flowchart LR
     S1[Stage 1: Discovery<br/>/zero-to-one & /coder-to-founder] --> S2[Stage 2: Lean MVP<br/>/mvp & /product-market-fit]
-    S2 --> S3[Stage 3: Community<br/>/audience & /roadmap]
-    S3 --> S4[Stage 4: Content Exec<br/>/content]
+    S2 --> S3[Stage 3: Growth Loops & UX<br/>/customer-onboarding & /growth-loops]
+    S3 --> S4[Stage 4: Content & Audience<br/>/content & /audience]
     S4 --> S5[Stage 5: Launch & SEO<br/>/launch & /marketing-and-seo]
-    S5 --> S6[Stage 6: Scale & Exit<br/>/pricing-strategies & /exit-and-acquisition]
+    S5 --> S6[Stage 6: Unit Econ & Exit<br/>/unit-economics & /exit-and-acquisition]
 ```
-
----
-
-## 📄 Detailed Breakdown of All 21 Modules
-
-### 1. 🚀 [Build in Public: From Startup Journey to Community Engine](./build-in-public/README.md)
-* The fundamental transition from stealth mode to open building. Covers the 5 core pillars of transparency, turning followers into co-builders, distribution channel strategies, and essential privacy/security checklists.
-
-### 2. ⚡️ [Minimum Viable Product (MVP): First-Principles Guide](./mvp/README.md)
-* The engineering mechanics of building an MVP based on Eric Ries' Lean Startup framework. Explains the difference between a broken product and a true MVP, the 6-step lifecycle, famous case studies (*Dropbox, Airbnb*), and includes a minimal JS telemetry code snippet.
-
-### 3. 🗺️ [A Guide for Building in Public: The Complete Roadmap](./roadmap/README.md)
-* A structured, 6-phase operational manual covering Preparation, Audience Building, Effective Progress Sharing, Community Engagement, Metrics & Reflection, and Public Launching.
-
-### 4. 💻 [From Developer to Startup Founder: Transition Playbook](./coder-to-founder/README.md)
-* The strategic evolution from writing code to building a company. Covers identifying real-world problem gaps, Product-Market Fit (PMF) thinking, financial management, hiring teams, embracing the "fail fast" mindset, and case studies of developer-founders.
-
-### 5. 🛠️ [The Indie Hacker Handbook: Bootstrapping & Freedom](./indie-hacker/README.md)
-* First-principles guide for independent software creators. Defines Indie Hacking vs VC-backed startups, lean tech & operation stacks, ramen profitability, and full-time freedom milestones.
-
-### 6. ⚖️ [Bootstrapping vs. Venture Capital: Strategic Tradeoffs](./bootstrapping/README.md)
-* Comparative analysis matrix between self-funding and institutional VC. Guides founders on when to bootstrap vs raise money, equity dilution, cash flow models, and engineering architecture trade-offs.
-
-### 7. 💡 [The Micro-SaaS Playbook: 1-Person Subscription Products](./micro-saas/README.md)
-* Tactical playbook for building 1-person subscription SaaS products ($1k–$20k MRR). Covers idea validation, unbundling platforms, subscription pricing strategies ($9–$99/mo), and automated onboarding.
-
-### 8. 🔍 [Zero to One: Ideation, Problem Discovery & Validation](./zero-to-one/README.md)
-* Discovering real user problems before writing code. Covers identifying hair-on-fire problems, Rob Fitzpatrick's *The Mom Test* interview methodology, and running landing page smoke tests.
-
-### 9. 🎯 [Product-Market Fit (PMF) for Indie Builders](./product-market-fit/README.md)
-* Understanding and measuring PMF. Covers the Sean Ellis 40% rule survey, retention curve flattening analysis, word-of-mouth pull demand, and identifying "Fake PMF" traps.
-
-### 10. 💳 [SaaS & Product Pricing Strategies](./pricing-strategies/README.md)
-* Optimizing pricing as a growth lever. Value-based pricing framework, comparing SaaS monetization models (flat-rate, tiered, usage-based, LTDs), and the 4 golden rules of indie pricing.
-
-### 11. 🪣 [User Retention & Churn Reduction Frameworks](./retention-and-churn/README.md)
-* Building a leaky bucket retention engine. Voluntary vs involuntary churn, cohort retention heatmaps, automated Stripe dunning workflows, and optimizing Time-to-Value (TTV).
-
-### 12. 🔍 [Programmatic SEO & Organic Growth for Indie SaaS](./marketing-and-seo/README.md)
-* Building pSEO engines to capture long-tail search intent. Structuring datasets, static route generation, acquiring high-DR backlinks, and building free engineering-as-marketing tools.
-
-### 13. 🤖 [Building & Architecting AI-Native Micro-SaaS](./ai-native-saas/README.md)
-* Moving beyond thin wrappers to defensible AI products. Multi-tiered LLM API model routing, semantic vector caching, streaming SSE responses, and prompt injection defense.
-
-### 14. ⚡️ [Indie Hacker CLI & Developer Command Cheatsheet](./cheatsheet/README.md)
-* Command-line productivity reference for solo builders. Stripe CLI webhooks, Vercel/Cloudflare/Supabase deployments, Docker VPS management, and Git release workflows.
-
-### 15. ⚖️ [Legal, Tax & Compliance for Global Indie Founders](./legal-and-compliance/README.md)
-* Incorporating global entities (US Delaware LLC vs C-Corp), automating VAT/GST via Merchant of Record (Paddle/Lemon Squeezy), Drafting ToS & Privacy Policies, and GDPR compliance.
-
-### 16. 🏛️ [Micro-Acquisitions & Exiting an Indie SaaS](./exit-and-acquisition/README.md)
-* Financial and operational guide to selling a SaaS. Valuing businesses (SDE/ARR multiples), listing on Acquire.com / Flippa, due diligence checklists, and escrow asset transfers.
-
-### 17. 📊 [The Open Startup Playbook: Financial Transparency & Metrics](./open-metrics/README.md)
-* How to operate an Open Startup with public financial dashboards. Deep dive into SaaS metrics: MRR, ARR, ARPU, Churn Rate, LTV, and CAC. Step-by-step setup for linking Stripe with Baremetrics/ChartMogul and Plausible/Umami Analytics.
-
-### 18. 🎯 [The Indie Hacker Product Launch & Distribution Playbook](./launch/README.md)
-* Tactical distribution blueprint for launch day. Covers the 14-day pre-launch countdown, Product Hunt Maker comment templates, Show HN technical submission rules, Reddit r/SideProject strategies, and post-launch retrospectives.
-
-### 19. 👥 [Audience-First Product Development & Community](./audience/README.md)
-* Building an engaged community around a problem domain. Covers founder storytelling pillars, turning engineering hurdles into content, waitlist conversion funnels, and managing developer beta access.
-
-### 20. 📝 [Content Calendar & Multi-Platform Publishing Framework](./content/README.md)
-* Engineering-to-content mapping matrix, 4 proven social post templates, screenshot design rules, and a 30-minute weekly content workflow.
-
-### 21. 🔓 [Open Source Strategy & Commercialization Playbook](./open-source/README.md)
-* Leveraging Open Source Software (OSS) for distribution and monetization. Choosing permissive vs copyleft licenses (MIT, Apache 2.0, AGPL), managing GitHub repository growth, and executing Open Core & Managed SaaS business models.
 
 ---
 
