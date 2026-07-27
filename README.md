@@ -10,7 +10,7 @@
 
 ## 🏷️ Repository Tags & Topics
 
-`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#theinpublic`
+`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#legal-compliance` `#theinpublic`
 
 ---
 
@@ -50,9 +50,9 @@
 
 ---
 
-## 📚 Master Knowledge Modules (19 Modules)
+## 📚 Master Knowledge Modules (20 Modules)
 
-This repository is structured into **19 core minimalist modules**, covering the complete lifecycle of independent software creation:
+This repository is structured into **20 core minimalist modules**, covering every single aspect of independent software creation:
 
 | Module | Core Topic & Focus Area | Target Audience | Primary Outcome |
 | :--- | :--- | :--- | :--- |
@@ -69,6 +69,7 @@ This repository is structured into **19 core minimalist modules**, covering the 
 | 🪣 [**`retention-and-churn`**](./retention-and-churn/README.md) | **User Retention & Churn Reduction** | SaaS Builders | Seal leaky buckets, diagnose voluntary vs involuntary churn, and build dunning loops. |
 | 🔍 [**`marketing-and-seo`**](./marketing-and-seo/README.md) | **Programmatic SEO & Organic Growth** | SaaS Marketers | Build pSEO engines, capture long-tail keywords, and set up founder marketing channels. |
 | 🤖 [**`ai-native-saas`**](./ai-native-saas/README.md) | **Building AI-Native Micro-SaaS** | AI Developers | Architect RAG context pipelines, optimize token costs, and secure against prompt injections. |
+| ⚖️ [**`legal-and-compliance`**](./legal-and-compliance/README.md) | **Legal, Tax & Compliance Framework** | Global Indie Founders | Delaware incorporation (LLC vs C-Corp), Merchant of Record (Paddle/Stripe), VAT & GDPR. |
 | 🏛️ [**`exit-and-acquisition`**](./exit-and-acquisition/README.md) | **Micro-Acquisitions & Exiting** | SaaS Sellers & Exiting Founders | Value SaaS businesses (SDE/ARR multiples), list on Acquire.com, and complete asset transfers. |
 | 📊 [**`open-metrics`**](./open-metrics/README.md) | **Financial Transparency & Revenue Metrics** | Bootstrapped Startups | Setup live MRR/ARR dashboards, calculate unit economics (CAC/LTV), and build `/open` pages. |
 | 🎯 [**`launch`**](./launch/README.md) | **Product Launch & Distribution Playbook** | Launching Makers | 14-day pre-launch plan, Product Hunt Maker formulas, Show HN rules & Reddit execution. |
@@ -91,14 +92,14 @@ Follow this lifecycle roadmap to navigate the knowledge base based on your proje
                                                                            │
 ┌────────────────────────┐     ┌────────────────────────┐     ┌────────────▼───────────┐
 │ STAGE 6: EXIT & SCALE  │ ◄── │ STAGE 5: LAUNCH & SEO  │ ◄── │ STAGE 4: CONTENT EXEC  │
-│ Read: /exit-and-       │     │ Read: /launch & /mkt-  │     │ Read: /content         │
-│ acquisition & /pricing │     │ and-seo & /open-metrics│     │ (Post Formats)         │
+│ Read: /legal-and-      │     │ Read: /launch & /mkt-  │     │ Read: /content         │
+│ compliance & /pricing  │     │ and-seo & /open-metrics│     │ (Post Formats)         │
 └────────────────────────┘     └────────────────────────┘     └────────────────────────┘
 ```
 
 ---
 
-## 📄 Detailed Breakdown of All 19 Modules
+## 📄 Detailed Breakdown of All 20 Modules
 
 ### 1. 🚀 [Build in Public: From Startup Journey to Community Engine](./build-in-public/README.md)
 * The fundamental transition from stealth mode to open building. Covers the 5 core pillars of transparency, turning followers into co-builders, distribution channel strategies, and essential privacy/security checklists.
@@ -139,22 +140,25 @@ Follow this lifecycle roadmap to navigate the knowledge base based on your proje
 ### 13. 🤖 [Building & Architecting AI-Native Micro-SaaS](./ai-native-saas/README.md)
 * Moving beyond thin wrappers to defensible AI products. Multi-tiered LLM API model routing, semantic vector caching, streaming SSE responses, and prompt injection defense.
 
-### 14. 🏛️ [Micro-Acquisitions & Exiting an Indie SaaS](./exit-and-acquisition/README.md)
+### 14. ⚖️ [Legal, Tax & Compliance for Global Indie Founders](./legal-and-compliance/README.md)
+* Incorporating global entities (US Delaware LLC vs C-Corp), automating VAT/GST via Merchant of Record (Paddle/Lemon Squeezy), Drafting ToS & Privacy Policies, and GDPR compliance.
+
+### 15. 🏛️ [Micro-Acquisitions & Exiting an Indie SaaS](./exit-and-acquisition/README.md)
 * Financial and operational guide to selling a SaaS. Valuing businesses (SDE/ARR multiples), listing on Acquire.com / Flippa, due diligence checklists, and escrow asset transfers.
 
-### 15. 📊 [The Open Startup Playbook: Financial Transparency & Metrics](./open-metrics/README.md)
+### 16. 📊 [The Open Startup Playbook: Financial Transparency & Metrics](./open-metrics/README.md)
 * How to operate an Open Startup with public financial dashboards. Deep dive into SaaS metrics: MRR, ARR, ARPU, Churn Rate, LTV, and CAC. Step-by-step setup for linking Stripe with Baremetrics/ChartMogul and Plausible/Umami Analytics.
 
-### 16. 🎯 [The Indie Hacker Product Launch & Distribution Playbook](./launch/README.md)
+### 17. 🎯 [The Indie Hacker Product Launch & Distribution Playbook](./launch/README.md)
 * Tactical distribution blueprint for launch day. Covers the 14-day pre-launch countdown, Product Hunt Maker comment templates, Show HN technical submission rules, Reddit r/SideProject strategies, and post-launch retrospectives.
 
-### 17. 👥 [Audience-First Product Development & Community](./audience/README.md)
+### 18. 👥 [Audience-First Product Development & Community](./audience/README.md)
 * Building an engaged community around a problem domain. Covers founder storytelling pillars, turning engineering hurdles into content, waitlist conversion funnels, and managing developer beta access.
 
-### 18. 📝 [Content Calendar & Multi-Platform Publishing Framework](./content/README.md)
+### 19. 📝 [Content Calendar & Multi-Platform Publishing Framework](./content/README.md)
 * Engineering-to-content mapping matrix, 4 proven social post templates, screenshot design rules, and a 30-minute weekly content workflow.
 
-### 19. 🔓 [Open Source Strategy & Commercialization Playbook](./open-source/README.md)
+### 20. 🔓 [Open Source Strategy & Commercialization Playbook](./open-source/README.md)
 * Leveraging Open Source Software (OSS) for distribution and monetization. Choosing permissive vs copyleft licenses (MIT, Apache 2.0, AGPL), managing GitHub repository growth, and executing Open Core & Managed SaaS business models.
 
 ---
