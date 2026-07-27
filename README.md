@@ -10,49 +10,43 @@
 
 ## 🏷️ Repository Tags & Topics
 
-`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#legal-compliance` `#theinpublic`
+`#buildinpublic` `#indiehacker` `#saas` `#bootstrapping` `#mvp` `#open-startup` `#startup-roadmap` `#developer-to-founder` `#micro-saas` `#product-market-fit` `#pricing-strategy` `#retention` `#programmatic-seo` `#ai-saas` `#micro-acquisition` `#legal-compliance` `#cli-cheatsheet` `#theinpublic`
 
 ---
 
-## 📌 Executive Overview
+## 📌 Executive Overview & Value Flywheel
 
 **Building in Public (BiP)** and **Indie Hacking** are modern paradigms redefining software entrepreneurship. Rather than developing in isolation or chasing Venture Capital valuations, independent creators build transparently, validate early with real users, focus on immediate cash flow, and cultivate long-term personal freedom. Live community hub and resources: [theinpublic.com](https://theinpublic.com).
 
-```text
-┌───────────────────────────────────────────────────────────────────────────────────────────┐
-│                           THE BUILD IN PUBLIC VALUE FLYWHEEL                               │
-└───────────────────────────────────────────────────────────────────────────────────────────┘
-                                              │
-                                              ▼
-                                 ┌───────────────────────────┐
-                                 │   Authentic Process       │
-                                 │      & Transparency       │
-                                 └─────────────┬─────────────┘
-                                               │
-                                               ▼
-                                 ┌───────────────────────────┐
-                                 │  Audience Trust & Shared  │
-                                 │         Ownership         │
-                                 └─────────────┬─────────────┘
-                                               │
-                                               ▼
-                                 ┌───────────────────────────┐
-                                 │ Rapid User Validation &   │
-                                 │    Continuous Feedback    │
-                                 └─────────────┬─────────────┘
-                                               │
-                                               ▼
-                                 ┌───────────────────────────┐
-                                 │ Higher Retention, Organic │
-                                 │  Growth & Brand Equity    │
-                                 └───────────────────────────┘
+```mermaid
+flowchart TD
+    A[Authentic Process & Transparency] -->|Builds Credibility| B[Audience Trust & Shared Ownership]
+    B -->|Generates Insight| C[Rapid User Validation & Continuous Feedback]
+    C -->|Drives Product Quality| D[Higher Retention, Organic Growth & Brand Equity]
+    D -->|Feeds Back Into| A
 ```
 
 ---
 
-## 📚 Master Knowledge Modules (20 Modules)
+## 🏆 Famous Open Startups Directory
 
-This repository is structured into **20 core minimalist modules**, covering every single aspect of independent software creation:
+Learn from pioneer companies operating with total financial and operational transparency:
+
+| Startup | Category | Revenue / ARR | Tech Stack | Live Dashboard |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Buffer](https://buffer.com)** | Social Media Management | ~$20M ARR | React, Node.js, Kubernetes | [buffer.com/open](https://buffer.com/open) |
+| **[Nomad List](https://nomadlist.com)** | Global Remote Work Portal | ~$3M ARR | Vanilla JS, PHP, SQLite | [nomadlist.com/open](https://nomadlist.com/open) |
+| **[Plausible Analytics](https://plausible.io)** | Privacy-First Web Analytics | ~$2.5M ARR | Elixir, Phoenix, ClickHouse | [plausible.io/open](https://plausible.io/open) |
+| **[PostHog](https://posthog.com)** | Product Analytics & Telemetry | ~$10M ARR | Python, Django, React | [posthog.com/handbook](https://posthog.com/handbook) |
+| **[Ghost](https://ghost.org)** | Open Source Publishing | ~$6M ARR | Node.js, Ember.js, MySQL | [ghost.org/about](https://ghost.org/about) |
+| **[Cal.com](https://cal.com)** | Open Source Scheduling | ~$2M ARR | Next.js, TypeScript, PostgreSQL | [cal.com/open](https://cal.com/open) |
+| **[Dub.co](https://dub.co)** | Open Source Link Management | ~$500k ARR | Next.js, Redis, Upstash | [dub.co/open](https://dub.co/open) |
+
+---
+
+## 📚 Master Knowledge Modules (21 Modules)
+
+This repository is structured into **21 core minimalist modules**, covering every single aspect of independent software creation:
 
 | Module | Core Topic & Focus Area | Target Audience | Primary Outcome |
 | :--- | :--- | :--- | :--- |
@@ -69,6 +63,7 @@ This repository is structured into **20 core minimalist modules**, covering ever
 | 🪣 [**`retention-and-churn`**](./retention-and-churn/README.md) | **User Retention & Churn Reduction** | SaaS Builders | Seal leaky buckets, diagnose voluntary vs involuntary churn, and build dunning loops. |
 | 🔍 [**`marketing-and-seo`**](./marketing-and-seo/README.md) | **Programmatic SEO & Organic Growth** | SaaS Marketers | Build pSEO engines, capture long-tail keywords, and set up founder marketing channels. |
 | 🤖 [**`ai-native-saas`**](./ai-native-saas/README.md) | **Building AI-Native Micro-SaaS** | AI Developers | Architect RAG context pipelines, optimize token costs, and secure against prompt injections. |
+| ⚡️ [**`cheatsheet`**](./cheatsheet/README.md) | **Indie Hacker CLI & Commands Reference** | Command-Line Developers | Stripe CLI webhooks, Vercel/Supabase deployments, Docker VPS commands & Git workflows. |
 | ⚖️ [**`legal-and-compliance`**](./legal-and-compliance/README.md) | **Legal, Tax & Compliance Framework** | Global Indie Founders | Delaware incorporation (LLC vs C-Corp), Merchant of Record (Paddle/Stripe), VAT & GDPR. |
 | 🏛️ [**`exit-and-acquisition`**](./exit-and-acquisition/README.md) | **Micro-Acquisitions & Exiting** | SaaS Sellers & Exiting Founders | Value SaaS businesses (SDE/ARR multiples), list on Acquire.com, and complete asset transfers. |
 | 📊 [**`open-metrics`**](./open-metrics/README.md) | **Financial Transparency & Revenue Metrics** | Bootstrapped Startups | Setup live MRR/ARR dashboards, calculate unit economics (CAC/LTV), and build `/open` pages. |
@@ -81,25 +76,20 @@ This repository is structured into **20 core minimalist modules**, covering ever
 
 ## 🗺️ Recommended Execution Path
 
-Follow this lifecycle roadmap to navigate the knowledge base based on your project stage:
+Follow this interactive Mermaid roadmap to navigate the knowledge base based on your project stage:
 
-```text
-┌────────────────────────┐     ┌────────────────────────┐     ┌────────────────────────┐
-│ STAGE 1: DISCOVERY     │ ──► │ STAGE 2: LEAN MVP      │ ──► │ STAGE 3: COMMUNITY     │
-│ Read: /zero-to-one &   │     │ Read: /mvp & /product- │     │ Read: /audience &      │
-│ /coder-to-founder      │     │ market-fit             │     │ /roadmap               │
-└────────────────────────┘     └────────────────────────┘     └────────────────────────┘
-                                                                           │
-┌────────────────────────┐     ┌────────────────────────┐     ┌────────────▼───────────┐
-│ STAGE 6: EXIT & SCALE  │ ◄── │ STAGE 5: LAUNCH & SEO  │ ◄── │ STAGE 4: CONTENT EXEC  │
-│ Read: /legal-and-      │     │ Read: /launch & /mkt-  │     │ Read: /content         │
-│ compliance & /pricing  │     │ and-seo & /open-metrics│     │ (Post Formats)         │
-└────────────────────────┘     └────────────────────────┘     └────────────────────────┘
+```mermaid
+flowchart LR
+    S1[Stage 1: Discovery<br/>/zero-to-one & /coder-to-founder] --> S2[Stage 2: Lean MVP<br/>/mvp & /product-market-fit]
+    S2 --> S3[Stage 3: Community<br/>/audience & /roadmap]
+    S3 --> S4[Stage 4: Content Exec<br/>/content]
+    S4 --> S5[Stage 5: Launch & SEO<br/>/launch & /marketing-and-seo]
+    S5 --> S6[Stage 6: Scale & Exit<br/>/pricing-strategies & /exit-and-acquisition]
 ```
 
 ---
 
-## 📄 Detailed Breakdown of All 20 Modules
+## 📄 Detailed Breakdown of All 21 Modules
 
 ### 1. 🚀 [Build in Public: From Startup Journey to Community Engine](./build-in-public/README.md)
 * The fundamental transition from stealth mode to open building. Covers the 5 core pillars of transparency, turning followers into co-builders, distribution channel strategies, and essential privacy/security checklists.
@@ -140,26 +130,49 @@ Follow this lifecycle roadmap to navigate the knowledge base based on your proje
 ### 13. 🤖 [Building & Architecting AI-Native Micro-SaaS](./ai-native-saas/README.md)
 * Moving beyond thin wrappers to defensible AI products. Multi-tiered LLM API model routing, semantic vector caching, streaming SSE responses, and prompt injection defense.
 
-### 14. ⚖️ [Legal, Tax & Compliance for Global Indie Founders](./legal-and-compliance/README.md)
+### 14. ⚡️ [Indie Hacker CLI & Developer Command Cheatsheet](./cheatsheet/README.md)
+* Command-line productivity reference for solo builders. Stripe CLI webhooks, Vercel/Cloudflare/Supabase deployments, Docker VPS management, and Git release workflows.
+
+### 15. ⚖️ [Legal, Tax & Compliance for Global Indie Founders](./legal-and-compliance/README.md)
 * Incorporating global entities (US Delaware LLC vs C-Corp), automating VAT/GST via Merchant of Record (Paddle/Lemon Squeezy), Drafting ToS & Privacy Policies, and GDPR compliance.
 
-### 15. 🏛️ [Micro-Acquisitions & Exiting an Indie SaaS](./exit-and-acquisition/README.md)
+### 16. 🏛️ [Micro-Acquisitions & Exiting an Indie SaaS](./exit-and-acquisition/README.md)
 * Financial and operational guide to selling a SaaS. Valuing businesses (SDE/ARR multiples), listing on Acquire.com / Flippa, due diligence checklists, and escrow asset transfers.
 
-### 16. 📊 [The Open Startup Playbook: Financial Transparency & Metrics](./open-metrics/README.md)
+### 17. 📊 [The Open Startup Playbook: Financial Transparency & Metrics](./open-metrics/README.md)
 * How to operate an Open Startup with public financial dashboards. Deep dive into SaaS metrics: MRR, ARR, ARPU, Churn Rate, LTV, and CAC. Step-by-step setup for linking Stripe with Baremetrics/ChartMogul and Plausible/Umami Analytics.
 
-### 17. 🎯 [The Indie Hacker Product Launch & Distribution Playbook](./launch/README.md)
+### 18. 🎯 [The Indie Hacker Product Launch & Distribution Playbook](./launch/README.md)
 * Tactical distribution blueprint for launch day. Covers the 14-day pre-launch countdown, Product Hunt Maker comment templates, Show HN technical submission rules, Reddit r/SideProject strategies, and post-launch retrospectives.
 
-### 18. 👥 [Audience-First Product Development & Community](./audience/README.md)
+### 19. 👥 [Audience-First Product Development & Community](./audience/README.md)
 * Building an engaged community around a problem domain. Covers founder storytelling pillars, turning engineering hurdles into content, waitlist conversion funnels, and managing developer beta access.
 
-### 19. 📝 [Content Calendar & Multi-Platform Publishing Framework](./content/README.md)
+### 20. 📝 [Content Calendar & Multi-Platform Publishing Framework](./content/README.md)
 * Engineering-to-content mapping matrix, 4 proven social post templates, screenshot design rules, and a 30-minute weekly content workflow.
 
-### 20. 🔓 [Open Source Strategy & Commercialization Playbook](./open-source/README.md)
+### 21. 🔓 [Open Source Strategy & Commercialization Playbook](./open-source/README.md)
 * Leveraging Open Source Software (OSS) for distribution and monetization. Choosing permissive vs copyleft licenses (MIT, Apache 2.0, AGPL), managing GitHub repository growth, and executing Open Core & Managed SaaS business models.
+
+---
+
+## ⚡️ Indie Hacker Quick CLI Reference
+
+```bash
+# Stripe CLI: Test webhooks locally
+stripe listen --forward-to localhost:8080/api/webhooks
+stripe trigger customer.subscription.created
+
+# Vercel: Production deployment
+npx vercel --prod
+
+# Supabase: Start local DB & sync migrations
+npx supabase start
+npx supabase db push
+
+# Docker: Run production containers
+docker compose up -d --build
+```
 
 ---
 
