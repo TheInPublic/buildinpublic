@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!-- Dark Canvas Background -->
+  <rect width="1200" height="630" fill="#0b0f17" />
+  
+  <!-- Subtle Glowing Radial Background -->
+  <circle cx="600" cy="315" r="400" fill="#f82244" fill-opacity="0.12" />
+
+  <g transform="translate(600, 240)">
+    <!-- Rounded Icon Badge #f82244 -->
+    <rect x="-60" y="-60" width="120" height="120" rx="28" fill="#f82244" />
+    
+    <!-- White Tabler Radar Icon -->
+    <g transform="translate(-30, -30) scale(2.5)">
+      <path d="M21 12h-8a1 1 0 1 0 -1 1v8a9 9 0 0 0 9 -9z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M16 9a5 5 0 1 0 -7 7" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M20.486 9a9 9 0 1 0 -11.482 11.495" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <text x="600" y="390" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.02em">The In Public</text>
+  <text x="600" y="440" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="500">Build in Public &amp; Indie Hacker Master Knowledge Hub</text>
+  <text x="600" y="480" text-anchor="middle" fill="#f82244" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="600">theinpublic.com</text>
+</svg>
