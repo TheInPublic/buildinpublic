@@ -50,7 +50,7 @@ This repository is structured into **26 core minimalist modules**, covering ever
 
 | Module | Core Topic & Focus Area | Target Audience | Primary Outcome |
 | :--- | :--- | :--- | :--- |
-| 📜 [**`founder-rules`**](./founder-rules/README.md) | **28 Hard-Learned Rules for Founders** | Early Stage & Experienced Founders | Master the 28 hard-won rules on validation, pricing, hiring & life balance at age 35. |
+| 📜 [**`founder-rules`**](./founder-rules/README.md) | **28 Hard-Learned Rules of a Sovereign Builder** | Early Stage & Experienced Founders | Master the 28 hard-won rules on validation, pricing, bootstrapping, hiring & life balance at age 35. |
 | 🚀 [**`build-in-public`**](./build-in-public/README.md) | **From Startup Journey to Community Engine** | All Builders & Founders | Establish authentic mindset, trust flywheel, distribution channels & safety guardrails. |
 | ⚡️ [**`mvp`**](./mvp/README.md) | **First-Principles MVP Validation Guide** | Engineers & Product Managers | Isolate core pain points, eliminate feature creep, and ship testable MVPs in days. |
 | 🗺️ [**`roadmap`**](./roadmap/README.md) | **The Complete 6-Phase #buildinpublic Roadmap** | Indie Hackers & Creators | End-to-end operational blueprint from preparation to post-launch monetization. |
