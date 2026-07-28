@@ -1,6 +1,20 @@
 # The Build in Public Content Playbook & Publishing Framework
 
-> **A tactical operational manual for content creation, post templates, screenshot design, and cross-platform publishing workflows for software makers.**
+> **A first-principles operational manual for content creation, post templates, screenshot design, and cross-platform publishing workflows for software makers.**
+
+---
+
+## 📌 Executive Summary
+
+For developer-founders, content creation is not about writing artificial marketing copy—it is about documenting your real-world engineering process. By treating development activities (debugging, refactoring, milestone wins, and server crashes) as raw content input, you build an authentic audience while shipping code.
+
+```mermaid
+flowchart LR
+    A[Daily Code Commits & Debugging] --> B[10-Minute Post Creation]
+    B --> C[Publish on X/Twitter & LinkedIn]
+    C --> D[Repurpose into Weekly Newsletter / Substack]
+    D --> E[Audience Trust & Organic Traffic]
+```
 
 ---
 

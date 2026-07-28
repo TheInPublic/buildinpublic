@@ -10,7 +10,7 @@ Some ideas survived.
 
 Many did not.
 
-Today, I build from Tam Kỳ, a small city in central Vietnam. I do not have a large team, outside funding, or a famous name behind me. Most of the time, it is simply me, my computer, my family responsibilities, and the belief that software can be built in a smaller and more understandable way.
+Today, I build from Da Nang, a city in central Vietnam. I do not have a large team, outside funding, or a famous name behind me. Most of the time, it is simply me, my computer, my family responsibilities, and the belief that software can be built in a smaller and more understandable way.
 
 Kitwork grew from that belief.
 
@@ -375,7 +375,7 @@ It represents more than ten years of trying to understand software in my own way
 
 It represents the decision to stop waiting for permission.
 
-It represents an independent developer in Tam Kỳ attempting to build infrastructure from first principles, even when the goal appears too large for one person.
+It represents an independent developer in Da Nang attempting to build infrastructure from first principles, even when the goal appears too large for one person.
 
 Perhaps Kitwork will become a widely used runtime.
 
@@ -401,4 +401,4 @@ And trying again.
 > Share the unfinished journey honestly.
 > And do not postpone your life while waiting for the work to succeed.**
 
-*Written by Huỳnh Nhân Quốc, an independent Go developer building Kitwork from Tam Kỳ, Đà Nẵng, Vietnam.*
+*Written by Huỳnh Nhân Quốc, an independent Go developer building Kitwork from Da Nang, Vietnam.*

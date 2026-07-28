@@ -4,6 +4,20 @@
 
 ---
 
+## 📌 Executive Summary
+
+An **Indie Hacker** is an independent developer or creator who builds, ships, and monetizes software products—SaaS apps, developer APIs, or digital tools—without relying on Venture Capital (VC). Instead of chasing artificial billion-dollar valuations, indie hackers prioritize immediate cash flow, high margins, 100% equity retention, and personal freedom.
+
+```mermaid
+flowchart LR
+    A[Build Software with Lean Tech Stack] --> B[Ship Fast & Charge Day 1]
+    B --> C[Reach Ramen Profitability: Cover Living Costs]
+    C --> D[Full Financial Independence & Autonomy]
+    D --> E[Reinvest into Portfolio of Micro-SaaS]
+```
+
+---
+
 ## 1. What is an Indie Hacker?
 
 An **Indie Hacker** (Independent Creator / Solo Founder) is an entrepreneur who builds, launches, and monetizes software products—such as SaaS apps, digital tools, APIs, or content platforms—**without relying on Venture Capital (VC) funding**.

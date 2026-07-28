@@ -1,77 +1,110 @@
 # Indie Hacker CLI & Developer Command Cheatsheet
 
-> **A high-productivity command-line reference for solo software developers, bootstrappers, and indie founders.**
+> **A high-productivity command-line reference for solo software developers, bootstrappers, and indie founders managing servers, databases, payment webhooks, and deployments.**
 
 ---
 
-## 1. Stripe CLI & Local Webhook Testing
+## 📌 Executive Summary
+
+Solo builders do not have dedicated DevOps or Infrastructure teams. Mastering essential CLI commands for payment webhook testing, zero-downtime server deployments, database backups, and reverse proxies allows a 1-person team to operate with enterprise velocity.
+
+---
+
+## 1. Stripe CLI & Payment Webhook Testing
 
 ```bash
-# 1. Login to your Stripe developer account
+# 1. Authenticate Stripe CLI
 stripe login
 
-# 2. Forward live webhook events to your local dev server
+# 2. Listen & forward live webhook events to local dev server
 stripe listen --forward-to localhost:8080/api/webhooks
 
-# 3. Trigger simulated subscription events for testing
+# 3. Trigger simulated subscription events for local debugging
 stripe trigger customer.subscription.created
 stripe trigger invoice.payment_succeeded
 stripe trigger invoice.payment_failed
+stripe trigger customer.subscription.deleted
 ```
 
 ---
 
-## 2. Deployment & Cloud CLI (Vercel, Cloudflare, Supabase)
+## 2. Server Deployments & Process Management (Go & Node)
 
 ```bash
-# Vercel Deployment
-npx vercel                   # Preview deployment
-npx vercel --prod            # Production deployment
-npx vercel env pull .env.local # Pull remote environment variables
+# Go: Zero-dependency cross-compilation for Linux VPS (64-bit)
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -o app .
 
-# Supabase Local Development
-npx supabase start           # Start local Postgres, Auth, and Storage stack
-npx supabase db diff -f add_users_table # Create DB migration file
-npx supabase db push         # Apply migrations to remote Supabase project
+# Node.js: PM2 Production Process Management
+pm2 start server.js --name "my-saas" --max-memory-restart 300M
+pm2 status
+pm2 logs my-saas --lines 100
+pm2 save && pm2 startup # Persist process across VPS server reboots
 
-# Cloudflare Wrangler
-npx wrangler dev             # Run local Cloudflare Worker
-npx wrangler deploy          # Deploy Worker to edge network
-```
-
----
-
-## 3. Docker & VPS Production Commands (Hetzner / DigitalOcean)
-
-```bash
-# Build and run containerized app in background
+# Docker: Container orchestration & cleanup
 docker compose up -d --build
-
-# Inspect live container logs in production
 docker compose logs -f --tail=100 app
-
-# Prune unused containers and images to free disk space
-docker system prune -af --volumes
+docker system prune -af --volumes # Free up disk space on small $5 VPS
 ```
 
 ---
 
-## 4. Git & Release Management Workflows
+## 3. Database Backups & Migration CLI (Postgres & SQLite)
 
 ```bash
-# Create a release tag and push to GitHub
-git tag -a v1.0.0 -m "Release version 1.0.0"
-git push origin v1.0.0
+# PostgreSQL: Production Backup & Restore
+pg_dump -U postgres -h localhost -d saas_db | gzip > backup_$(date +%Y%m%d).sql.gz
+gunzip -c backup_20260728.sql.gz | psql -U postgres -d saas_db
 
-# Undo last local commit while keeping changes staged
-git reset --soft HEAD~1
+# SQLite: Production WAL Mode Optimization & Backup
+sqlite3 app.db "PRAGMA journal_mode=WAL;" # Enable Write-Ahead Logging for high concurrency
+sqlite3 app.db ".backup 'backup.sqlite3'"
 
-# Clean untracked build files safely
-git clean -fd
+# Supabase CLI
+npx supabase start                    # Run local Postgres/Auth/Storage stack
+npx supabase db diff -f add_new_table  # Generate migration file
+npx supabase db push                  # Apply migrations to remote Supabase DB
 ```
 
 ---
 
-## 5. Summary
+## 4. Caddy & Nginx Reverse Proxy / AutoSSL
 
-Mastering essential CLI commands saves hours of repetitive manual clicking in web dashboards, allowing solo founders to ship code faster and maintain maximum operational velocity.
+Caddy automatically provisions free Let's Encrypt SSL certificates without complex certbot scripts:
+
+```caddyfile
+# Caddyfile (/etc/caddy/Caddyfile)
+theinpublic.com {
+    reverse_proxy localhost:8080
+}
+```
+
+```bash
+# Caddy CLI commands
+caddy reload --config /etc/caddy/Caddyfile  # Zero-downtime config reload
+caddy fmt --overwrite                      # Format Caddyfile
+```
+
+---
+
+## 5. Network, SSL & Server Diagnostics
+
+```bash
+# Inspect SSL certificate expiration & handshake details
+curl -Iv https://theinpublic.com
+
+# DNS propagation check
+dig +short A theinpublic.com
+dig +short MX theinpublic.com
+
+# Check if port 8080 is listening on host
+netstat -tulpn | grep 8080
+# or
+lsof -i :8080
+```
+
+---
+
+## 6. Summary
+
+Command-line efficiency eliminates GUI dashboard friction. By automating server builds, database backups, and webhook testing via terminal scripts, solo founders save hours of operational overhead every week.
+
