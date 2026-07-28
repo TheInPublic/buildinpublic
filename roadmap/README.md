@@ -1,22 +1,21 @@
 # A Guide for Building in Public: The Complete Roadmap
 
-> **Welcome to the #buildinpublic Roadmap! This guide provides an end-to-end operational blueprint for solo founders, indie makers, and small teams embarking on the journey of creating and sharing their product-building process openly.**
+> **A first-principles operational blueprint for solo founders, indie makers, and small teams embarking on the journey of creating and sharing their product-building process openly.**
 
 ---
 
-## 📌 Table of Contents
+## 📌 Executive Summary
 
-- [What is #buildinpublic](#what-is-buildinpublic)
-- [How to Build in Public](#how-to-build-in-public)
-  - [Phase 1: Preparation and Planning](#phase-1-preparation-and-planning)
-  - [Phase 2: Building an Audience](#phase-2-building-an-audience)
-  - [Phase 3: Sharing Progress Effectively](#phase-3-sharing-progress-effectively)
-  - [Phase 4: Engaging the Community](#phase-4-engaging-the-community)
-  - [Phase 5: Metrics, Reflection, and Adjustment](#phase-5-metrics-reflection-and-adjustment)
-  - [Phase 6: Launch and Post-Launch](#phase-6-launch-and-post-launch)
-- [Communities & Directories](#communities--directories)
-- [Helpful Directories & Launch Tools](#helpful-directories--launch-tools)
-- [Final Words](#final-words)
+Building in Public (BiP) is an operational framework that transforms software development into a transparent distribution engine. This 6-phase roadmap guides founders from initial preparation, audience building, and effective content sharing to community engagement, metric retrospectives, and post-launch growth.
+
+```mermaid
+flowchart LR
+    P1[Phase 1: Prepare & Plan] --> P2[Phase 2: Build Audience]
+    P2 --> P3[Phase 3: Share Progress]
+    P3 --> P4[Phase 4: Community Engagement]
+    P4 --> P5[Phase 5: Metrics & Reflection]
+    P5 --> P6[Phase 6: Launch & Scale]
+```
 
 ---
 

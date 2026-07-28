@@ -1,6 +1,20 @@
 # From Developer to Startup Founder: The Technical Engineer's Transition Playbook
 
-> **A strategic engineering playbook for software developers, software architects, and coders transitioning into technical startup founders.**
+> **A first-principles engineering playbook for software developers, software architects, and coders transitioning into technical startup founders.**
+
+---
+
+## 📌 Executive Summary
+
+Software engineers have an incredible superpower: **the ability to turn abstract ideas into functional software with a laptop and internet connection.** However, building a great product is only 20% of building a business. The transition from coder to founder requires expanding your focus from *how* software is written to *why* it creates economic value and *how* it reaches customers.
+
+```mermaid
+flowchart LR
+    A[Engineer: Focus on Clean Code & Tech Stack] --> B[Shift to Founder Mindset: Focus on Market Pain]
+    B --> C[Ship Rapid MVP & Measure Telemetry]
+    C --> D[Master Distribution, Pricing & Business Ops]
+    D --> E[Sustainable Self-Funded Startup]
+```
 
 ---
 

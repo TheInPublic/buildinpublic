@@ -50,7 +50,6 @@ This repository is structured into **26 core minimalist modules**, covering ever
 
 | Module | Core Topic & Focus Area | Target Audience | Primary Outcome |
 | :--- | :--- | :--- | :--- |
-| 📜 [**`lessons`**](./lessons/README.md) | **What Building Kitwork Has Taught Me** | Independent Builders & Founders | 18 lessons on simplicity, Go runtime engineering, family, and building from Tam Kỳ. |
 | 🚀 [**`build-in-public`**](./build-in-public/README.md) | **From Startup Journey to Community Engine** | All Builders & Founders | Establish authentic mindset, trust flywheel, distribution channels & safety guardrails. |
 | ⚡️ [**`mvp`**](./mvp/README.md) | **First-Principles MVP Validation Guide** | Engineers & Product Managers | Isolate core pain points, eliminate feature creep, and ship testable MVPs in days. |
 | 🗺️ [**`roadmap`**](./roadmap/README.md) | **The Complete 6-Phase #buildinpublic Roadmap** | Indie Hackers & Creators | End-to-end operational blueprint from preparation to post-launch monetization. |
@@ -76,6 +75,7 @@ This repository is structured into **26 core minimalist modules**, covering ever
 | 👥 [**`audience`**](./audience/README.md) | **Audience-First Product Development** | Indie Makers & Creators | Convert social followers into active co-builders, master founder storytelling & waitlist funnels. |
 | 📝 [**`content`**](./content/README.md) | **Content Calendar & Publishing Framework** | Content-driven Founders | Engineering-to-content matrix, high-converting post templates & cross-posting workflows. |
 | 🔓 [**`open-source`**](./open-source/README.md) | **Open Source Strategy & Commercialization** | Open Source Developers | Select software licenses (MIT/AGPL), build GitHub communities, and implement Open Core SaaS models. |
+| 📜 [**`lessons`**](./lessons/README.md) | **What Building Kitwork Has Taught Me** | Independent Builders & Founders | 18 lessons on simplicity, Go runtime engineering, family, and building from Da Nang. |
 
 ---
 
@@ -85,11 +85,11 @@ Follow this interactive Mermaid roadmap to navigate the knowledge base based on 
 
 ```mermaid
 flowchart LR
-    S1[Stage 1: Discovery & Mindset<br/>/lessons & /zero-to-one] --> S2[Stage 2: Lean MVP<br/>/mvp & /product-market-fit]
+    S1[Stage 1: Discovery & Mindset<br/>/zero-to-one & /build-in-public] --> S2[Stage 2: Lean MVP<br/>/mvp & /product-market-fit]
     S2 --> S3[Stage 3: Growth Loops & UX<br/>/customer-onboarding & /growth-loops]
     S3 --> S4[Stage 4: Content & Audience<br/>/content & /audience]
     S4 --> S5[Stage 5: Launch & SEO<br/>/launch & /marketing-and-seo]
-    S5 --> S6[Stage 6: Unit Econ & Exit<br/>/unit-economics & /exit-and-acquisition]
+    S5 --> S6[Stage 6: Unit Econ, Exit & Reflection<br/>/unit-economics & /lessons]
 ```
 
 ---

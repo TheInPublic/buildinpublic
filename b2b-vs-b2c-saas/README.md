@@ -4,12 +4,25 @@
 
 ---
 
+## 📌 Executive Summary
+
+For solo developers, choosing between B2B (Business-to-Business) and B2C (Business-to-Consumer) is the most critical strategic decision. B2B SaaS operates on high Average Revenue Per User (ARPU), rational ROI purchasing, and low churn. B2C SaaS requires millions of top-of-funnel visitors to survive low pricing ($5/mo) and high consumer churn. For 1-person teams, B2B Micro-SaaS represents the most sustainable path to financial independence.
+
+```mermaid
+flowchart LR
+    A[Solo Builder Capacity: 1 Person] --> B{Choose SaaS Model}
+    B -->|B2B SaaS| C[100 Customers @ $50/mo = $5k MRR - Low Support & High Retention]
+    B -->|B2C SaaS| D[1,000 Customers @ $5/mo = $5k MRR - High Support & High Churn]
+```
+
+---
+
 ## 1. Comparative Analysis Matrix
 
 | Dimension | B2B SaaS (Business-to-Business) | B2C SaaS (Business-to-Consumer) |
 | :--- | :--- | :--- |
 | **Willingness to Pay** | High ($29 to $499+/month) | Low ($2 to $15/month) |
-| **Value Perception** | Solves business problems / saves labor cost | Personal entertainment, productivity, utility |
+| **Value Perception** | Solves business friction / saves labor cost | Personal entertainment, casual utility |
 | **Customer Support Burden** | Low-to-Moderate (Fewer users, higher ARPU) | Very High (Volume of low-value support tickets) |
 | **Monthly Churn Rate** | Low (1% to 3% monthly) | High (5% to 15%+ monthly) |
 | **Sales Conversion** | Rational, ROI-driven decision | Emotional, impulse-driven decision |
@@ -17,35 +30,47 @@
 
 ---
 
-## 2. Why B2B SaaS is Superior for Solo Builders
-
-### A. Higher Average Revenue Per User (ARPU)
-Reaching **$5,000 MRR** in B2B requires only **100 customers paying $50/mo**. Reaching the same $5,000 MRR in B2C requires **1,000 customers paying $5/mo**. Managing 100 business accounts requires far fewer support and infrastructure resources than 1,000 consumer accounts.
+## 2. The Math of $5,000 MRR: B2B vs. B2C
 
 ```text
 ┌───────────────────────────────────────────────────────────────────────────┐
-│                    THE $5,000 MRR COMPARISON CALCULATOR                   │
+│                    THE $5,000 MRR CUSTOMER COUNT MATH                     │
 └───────────────────────────────────────────────────────────────────────────┘
-   B2B Model  ──► 100 Business Customers @ $50/mo  = $5,000 MRR (Manageable Support)
-   B2C Model  ──► 1,000 Consumer Users  @ $5/mo   = $5,000 MRR (High Support Volume)
+   B2B SaaS ($50/mo ARPU)   ──► Needs ONLY 100 Paying Customers
+   B2C SaaS ($5/mo ARPU)    ──► Needs 1,000 Paying Customers
+   Consumer Free Tier (1%)  ──► Requires 100,000 Total Signups & Server Load!
 ```
 
-### B. Lower Churn & Stronger Retention
-Businesses integrate software into their operational workflows. Once a tool saves employee time or manages data, switching costs are high, leading to low churn. Consumers churn frequently whenever personal budgets tighten.
+### Milestone Comparison Table
 
-### C. Rational ROI Purchasing Decisions
-Businesses pay with company expense cards if software saves $500 in developer time or increases revenue. The purchasing decision is a rational math calculation rather than personal discretionary spending.
-
----
-
-## 3. When B2C SaaS Works for Solo Creators
-
-B2C software can succeed for solo founders under specific conditions:
-- **Massive Viral Potential**: Products with built-in viral sharing loops (e.g., photo editors, viral AI avatar generators).
-- **Prosumer Niche**: Targeting high-intent "prosumers" (e.g., freelance creators, YouTubers, podcasters) who spend personal funds on professional tools.
+| Target MRR Goal | B2B @ $49/mo ARPU | B2B @ $99/mo ARPU | B2C @ $5/mo ARPU | B2C @ $9/mo ARPU |
+| :--- | :--- | :--- | :--- | :--- |
+| **$1,000 MRR** | 20 Customers | 10 Customers | 200 Customers | 111 Customers |
+| **$5,000 MRR** | **102 Customers** | **51 Customers** | 1,000 Customers | 555 Customers |
+| **$10,000 MRR** | **204 Customers** | **101 Customers** | 2,000 Customers | 1,111 Customers |
 
 ---
 
-## 4. Summary
+## 3. Why B2B SaaS is Superior for Solo Builders
 
-For solo software engineers seeking financial independence, B2B Micro-SaaS represents the most reliable path. High ARPU, rational buying decisions, and low churn allow solo builders to reach sustainable revenue with a small, manageable customer base.
+1. **Rational ROI Buying Decisions**: Businesses buy software using company expense cards if the tool saves $500 in employee labor or prevents costly outages. Charging $49/mo is a simple math calculation for a business manager.
+2. **High Switching Costs**: Once a B2B SaaS integrates into daily company workflows or database systems, switching tools is inconvenient, leading to sub-3% monthly churn.
+3. **Manageable Support Load**: Handling support tickets for 100 business users takes a few hours a week. Handling support for 2,000 consumer users requires full-time support staff.
+
+---
+
+## 4. The "Prosumer" Bridge: B2C Strategy That Works
+
+If you choose to target consumers, target **Prosumers**—freelancers, YouTubers, podcasters, agency owners, and independent creators who spend personal funds for professional outcomes.
+
+```text
+Pure Consumer ($3/mo Photo Filter) ──► Low ARPU, High Churn (Avoid)
+Prosumer ($29/mo Video Transcriber) ──► High ARPU, Low Churn (Acceptable)
+```
+
+---
+
+## 5. Summary
+
+For solo software engineers seeking financial independence, B2B Micro-SaaS represents the most reliable path. High ARPU, rational ROI buying decisions, and low churn allow solo builders to reach sustainable revenue with a small, manageable customer base.
+

@@ -1,6 +1,20 @@
 # The Micro-SaaS Playbook: Building 1-Person Subscription Products
 
-> **A tactical guide to designing, shipping, pricing, and scaling 1-person subscription products with low churn and high profit margins.**
+> **A first-principles guide to designing, shipping, pricing, and scaling 1-person subscription products with low churn and high profit margins.**
+
+---
+
+## 📌 Executive Summary
+
+A **Micro-SaaS** is a hyper-focused Software-as-a-Service product built to solve a specific problem for a well-defined niche audience. Operated by a single founder (or 2-person team) with near-zero overhead, Micro-SaaS targets **$1,000 to $20,000 in Monthly Recurring Revenue (MRR)**, providing financial independence and complete lifestyle freedom.
+
+```mermaid
+flowchart LR
+    A[Identify Niche B2B Workflow Pain Point] --> B[Build 1-Feature Ultra-Simple Software]
+    B --> C[Set Up Self-Serve Stripe/Paddle Subscriptions]
+    C --> D[Automate Server Infra & Customer Onboarding]
+    D --> E[1-Person Business: High Profit Margin & Freedom]
+```
 
 ---
 
